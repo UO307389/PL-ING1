@@ -27,9 +27,9 @@ public class SwingMain {
 			public void run() {
 				try {
 					System.out.print("Goodbye World");
-					int a=10;
-					int b=9;
-					System.out.print(a-b);
+					int d=10;
+					int c=9;
+					System.out.print(d-c);
 					SwingMain window = new SwingMain();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
